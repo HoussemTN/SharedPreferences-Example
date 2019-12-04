@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="@dimen/form_margin"
+    android:id="@+id/rl_container">
+
+  <EditText
+      android:layout_margin="@dimen/form_comp_margin"
+      android:id="@+id/et_login"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/hint_login"
+      android:inputType="text"
+
+      />
+
+    <EditText
+        android:layout_margin="@dimen/form_comp_margin"
+        android:layout_below="@id/et_login"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"/>
+
+  <CheckBox
+      android:layout_below="@id/et_password"
+      android:layout_margin="@dimen/form_comp_margin"
+      android:id="@+id/checkBox"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/checkbox_text" />
+
+  <Button
+      android:layout_margin="@dimen/form_comp_margin"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/checkBox"
+        android:id="@+id/btn_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"/>
+
+</RelativeLayout>

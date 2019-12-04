@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SharedPreferencesExample</string>
+    <string name="hint_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="checkbox_text">Remember my Login informations</string>
+    <string name="sign_in">Sign In</string>
+
+</resources>
